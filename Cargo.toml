@@ -1,0 +1,12 @@
+[package]
+name = "simplewebserver"
+version = "0.1.0"
+authors = ["Nikola Kocic <nikolakocic@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+iron = "0.5.1"
+askama = "0.3.2"
+
+[build-dependencies]
+askama = "0.3"
